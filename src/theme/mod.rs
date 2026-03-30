@@ -822,7 +822,7 @@ fn nord_theme(flavor: NordFlavor) -> Theme {
     Theme {
         highlighter: OnceLock::new(),
 
-        panel_bg: flavor.bg0,
+        panel_bg: Color::Reset,
         bg_highlight: flavor.bg1,
         fg_primary: flavor.fg0,
         fg_secondary: flavor.fg1,
